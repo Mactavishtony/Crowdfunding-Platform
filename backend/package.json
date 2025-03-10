@@ -1,0 +1,26 @@
+{
+  "name": "hardhat-javascript-starter",
+  "version": "1.0.0",
+  "description": "Blockchain backend project with Hardhat, zkSync, and Thirdweb",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node"
+  },
+  "devDependencies": {
+    "hardhat": "^2.13.0",
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "hardhat-deploy": "^0.11.25"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3.8.0",
+    "ethers": "^6.3.0",
+    "zksync-web3": "^0.14.3"
+  },
+  "license": "MIT"
+}
